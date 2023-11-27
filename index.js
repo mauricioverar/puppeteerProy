@@ -66,6 +66,14 @@ import puppeteer from "puppeteer"
     }
     console.log("entregando información en Json")
     console.log("registros: ", registros)
+    /*
+    registros:  [
+      {
+        data1: 'Asignación de Equipos (Front y Back)',
+        data2: 'Comencemos'
+      }
+    ]
+    */
 
     await browser.close()
   } catch (error) {
